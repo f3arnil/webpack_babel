@@ -24,5 +24,12 @@ module.exports = {
             NODE_ENV: JSON.stringify(NODE_ENV),
             LANG: JSON.stringify('ru')
         })
-    ]
+    ],
+    
+    module: {
+        loaders:[{
+            test: /\.js$/,
+            loader: 'babel?presets[]=es2015'
+        }]
+    }
 }
