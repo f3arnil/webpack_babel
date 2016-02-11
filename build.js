@@ -47,12 +47,12 @@ var home =
 
 	'use strict'
 
-	let welcom = __webpack_require__(1);
+	let welcome = __webpack_require__(1);
 
-	welcom('home');
+	welcome('home');
 
-	//exports.welcom = welcom;
-	module.exports = welcom;
+	exports.welcome = welcome;
+
 
 /***/ },
 /* 1 */
