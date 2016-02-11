@@ -6,5 +6,12 @@ module.exports = {
         filename: 'build.js',
         library: "home"
     },
-    watch: true
+    watch: true,
+    
+    watchOptions: {
+        aggregateTimeout: 100
+    },
+    
+//    devtool: 'source-map'
+    devtool: 'cheap-inline-module-source-map'
 }
